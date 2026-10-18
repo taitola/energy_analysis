@@ -1,0 +1,25 @@
+# Environment variables / secrets
+.env
+
+# Data files & generated figures
+data/*.parquet
+data/*.csv
+data/*.png
+!data/.gitkeep
+outputs/figures/*.png
+!outputs/figures/.gitkeep
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
