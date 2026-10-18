@@ -113,4 +113,4 @@ Or for verbose test output:
 pytest -v
 ```
 
-All tests in `tests/test_download.py` and `tests/test_svar.py` run in under 2 seconds without requiring external network access.
+All tests in `tests/test_download.py` and `tests/test_svar.py` run in under 2 seconds without requiring external network access. 
